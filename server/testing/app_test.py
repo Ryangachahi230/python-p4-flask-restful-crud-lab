@@ -1,6 +1,8 @@
 import json
 
-from app import app
+from server.application import app
+
+
 from models import db, Plant
 
 class TestPlant:
